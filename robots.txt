@@ -1,3 +1,33 @@
 User-agent: *
 Allow: /
+
+# Search access does not grant training or third-party material rights.
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /data/
+Disallow: /meta/
+Disallow: /midi/
+Disallow: /files/
+Disallow: /404.html
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /data/
+Disallow: /meta/
+Disallow: /midi/
+Disallow: /files/
+Disallow: /404.html
+
 Sitemap: https://nav.midicn.com/sitemap.xml
